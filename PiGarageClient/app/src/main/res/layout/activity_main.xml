@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/ipAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PiGarage Server IP Address"/>
+
+        <EditText
+            android:id="@+id/portNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="PiGarage Server Port Number"/>
+        <EditText
+            android:id="@+id/key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Key"/>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Settings"/>
+    <Button
+        android:id="@+id/door1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Door 1" />
+
+    <Button
+        android:id="@+id/door2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Door 2" />
+
+        <Button
+            android:id="@+id/door3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Door 3" />
+
+        <Button
+            android:id="@+id/door4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Door 4" />
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
